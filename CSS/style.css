@@ -1,0 +1,62 @@
+/* Selector {
+    Property: value;
+} */
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+p {
+    color: #FF7400;
+    text-align: center;
+    border: 5px solid rgba(168, 107, 56, 0.5);
+    cursor: pointer;
+    border-radius: 12px;
+}
+img {
+    float: right;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+p {
+    line-height: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-family: 'Poiret One', cursive;
+}
+li {
+    list-style: none;
+    display: inline-block; 
+}
+.webtext {
+    border: 5px solid rgba(212, 118, 106, 0.3);
+}
+.active {
+    color: rgb(42, 127, 64,);
+}
+#div1 {
+    background: rgba(212, 118, 106, 0.2);
+}
+#div2 {
+    background: rgba(255, 212, 170, 0.2);
+}
+
+/* list-style: none;-remove the list dots from the ordered lists 
+cursor: pointer- change the look of the cursor
+display: inline-block; to put in one line the home about and login
+You can copy a color from paletton.com by the first line with # or:
+rgb (with the 3 different number), if we want to get not as visible color we can:
+rgba (3 number and the last one between 0 and 1 for the visibility)
+If we want when we apply a style to something to be applied for an other thing to we use:
+h2, p {
+} this is the selector  
+*/

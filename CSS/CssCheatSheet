@@ -1,0 +1,27 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class- you can use multiple times, let us to style same elements differently
+#id- we only can use once same id
+*-symbolyses all element
+element-like body, p ...
+element, element-like h2,p-if we want to apply things for both
+element element-like h2 p - means we want to select all p which is inside h2
+element > element-h2>p-Selects all <p> elements where the parent is a h2 element
+element + element-h2+p-means select all p elemnt which is after h2
+:hover-h2 + p:hover -Selects links on mouse over
+:last-child-Selects every <p> element that is the last child of its parent exp: .webtext last child {}
+:first-child-Selects every <p> element that is the first child of its parent
+!important (not recommended)-ovverride verything
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
